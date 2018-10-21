@@ -2,13 +2,11 @@
 
 To make use of my new scanner for large scanning jobs I set up some helper scripts that can be called via hotkey for a fast and effecient workflow. I built this for XFCE4 although it would be trivial to adapt it to any linux system.
 
-<<<<<<< HEAD
-![desk](/home/julio/.scanr/imgs/Des-1.jpg  "Deslk_image")
-=======
+![desk](imgs/Des-1.jpg)
+
 ### Why?
 
 Scanning and OCR can be extremely innefiecent and tiresome if you are using a GUI program and scanning large volumes. Using hotkeys makes it possible to scan, OCR, and save without needing to fiddle with a scanning settings or the computer. Once the scans are produced they can be sorted and mass renamed, archived, or converted to a different format.
->>>>>>> bd280bd5bb1dbdba2042cd74382f0ac7137422dd
 
 ## Install
 
@@ -18,7 +16,7 @@ Scanning and OCR can be extremely innefiecent and tiresome if you are using a GU
 4. Input the default path for scan images. I recommend /home/<usr>/Pictures/scans/
 5. Set up hotkeys yourself from the system settings (below is my custom hotkey keyboard)
 
-![keyboard](/home/julio/.scanr/imgs/Keyboard_2.jpg  "Keyboard")
+![keyboard](imgs/Keyboard_2.jpg )
 
 ## Use & Workflow
 
@@ -32,7 +30,7 @@ Assuming you have set up hot keys for these three scripts,
 2. Call either **scanner_handle** script next and the scanner will perform the scan and save it
 3. Scan over and over until you need to call **scan_cwd.sh** again.
 
-![scanner](/home/julio/.scanr/imgs/Scanner.jpg  "Scanner_with_keyboard")
+![scanner](imgs/Scanner.jpg )
 
 ## Files
 
