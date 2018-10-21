@@ -2,15 +2,19 @@
 
 To make use of my new scanner for large scanning jobs I set up some helper scripts that can be called via hotkey for a fast and effecient workflow. I built this for XFCE4 although it would be trivial to adapt it to any linux system.
 
+![desk](/home/julio/.scanr/imgs/Des-1.jpg  "Deslk_image")
+
 ## Install
 
 1. Clone this repository
 2. launch the install.sh script
 3. Input the permanent location for this program. I recommend /home/<usr>/.scanr
 4. Input the default path for scan images. I recommend /home/<usr>/Pictures/scans/
-5. Set up hotkeys yourself from the system settings
+5. Set up hotkeys yourself from the system settings (below is my custom hotkey keyboard)
 
-## Use Workflow
+![keyboard](/home/julio/.scanr/imgs/Keyboard_2.jpg  "Keyboard")
+
+## Use & Workflow
 
 There are two scanning scripts **scanner_handle.sh** and **scanner_handle_ocr.sh**. The latter does the extra step of performing optical character recogintion, but both produce a 300dpi color JPEG image that is named with the date and time of scan. 
 
@@ -21,6 +25,8 @@ Assuming you have set up hot keys for these three scripts,
 1. Begin by calling **scan_cwd.sh** and input the desired path for scans to be saved.
 2. Call either **scanner_handle** script next and the scanner will perform the scan and save it
 3. Scan over and over until you need to call **scan_cwd.sh** again.
+
+![scanner](/home/julio/.scanr/imgs/Scanner.jpg  "Scanner_with_keyboard")
 
 ## Files
 
